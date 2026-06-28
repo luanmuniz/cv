@@ -120,6 +120,20 @@ The hundreds of GB Database was a big challenge, to make that available to all u
         "Implemented data analysis tools to extract insights from e-commerce data, improving business decision-making.",
         "Collaborated with cross-functional teams to deliver innovative solutions for clients."
       ],
+    }, {
+      company: "Extraball",
+      link: "https://extraball.com.br/",
+      badges: ["Remote", "Node.js", "Redis", "MongoDB", "Postgres"],
+      title: "Senior FullStack Developer",
+      start: "Aug 2013",
+      end: "Mar 2017",
+      description: `At Extraball I had the opportunity to work with Big Players in the Brazilian e-commerce creating a very wide experience in the area. Extraball is a powerful VTEX partner, one of the largest e-commerce platforms in Brazil. I've learned there to work remotely with big companies and how to communicate to all levels required.`,
+      highlights: [
+        "Worked with major Brazilian e-commerce companies, gaining extensive experience in the industry.",
+        "Developed and maintained full-stack applications using Node.js and React, ensuring high-quality code and performance.",
+        "Collaborated with cross-functional teams to deliver innovative solutions for clients.",
+        "Learned to work remotely with large companies, effectively communicating across all levels of the organization."
+      ],
     }
   ],
   skills: [
