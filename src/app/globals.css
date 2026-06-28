@@ -104,4 +104,8 @@ h2 {
     opacity: 1 !important;
     transform: none !important;
   }
+
+  h2 {
+    margin-bottom: 0.5rem;
+  }
 }

@@ -132,27 +132,29 @@ function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
           >
             {new URL(personalWebsiteUrl).hostname}
           </a>
-          <span aria-hidden="true">/</span>
         </>
       )}
       {contact.email && (
         <>
+          <span aria-hidden="true">/</span>
           <a
             className="underline hover:text-foreground/70"
             href={`mailto:${contact.email}`}
           >
             {contact.email}
           </a>
-          <span aria-hidden="true">/</span>
         </>
       )}
       {contact.tel && (
-        <a
-          className="underline hover:text-foreground/70"
-          href={`tel:${contact.tel}`}
-        >
-          {contact.tel}
-        </a>
+        <>
+          <span aria-hidden="true">/</span>
+          <a
+            className="underline hover:text-foreground/70"
+            href={`tel:${contact.tel}`}
+          >
+            {contact.tel}
+          </a>
+        </>
       )}
     </div>
   );
@@ -189,7 +191,7 @@ export function Header() {
       </div>
 
       <Avatar
-        className="size-28 ring-1 ring-muted"
+        className="size-28 ring-1 ring-muted print:hidden"
         src={RESUME_DATA.avatarUrl}
         alt={`${RESUME_DATA.name}'s profile picture`}
         fallback={RESUME_DATA.initials}

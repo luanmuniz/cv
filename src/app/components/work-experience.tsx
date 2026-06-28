@@ -22,6 +22,7 @@ function BadgeList({ className, badges }: BadgeListProps) {
   return (
     <ul
       className={cn("inline-flex list-none gap-x-1 p-0", className)}
+      id="work-experience-badges"
       aria-label="Technologies used"
     >
       {badges.map((badge) => (
@@ -49,7 +50,7 @@ interface WorkPeriodProps {
 function WorkPeriod({ start, end }: WorkPeriodProps) {
   return (
     <div
-      className="text-sm tabular-nums text-gray-500"
+      className="text-sm tabular-nums text-gray-500 print:text-[10px]"
       title={`Employment period: ${start} to ${end ?? "Present"}`}
     >
       {start} - {end ?? "Present"}
@@ -100,17 +101,13 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
       <CardHeader className="print:space-y-1">
         <div className="flex items-center justify-between gap-x-2 text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
-            <CompanyLink company={company} link={link} />
-            <BadgeList
-              className="hidden gap-x-1 sm:inline-flex"
-              badges={badges}
-            />
+            {title}
           </h3>
           <WorkPeriod start={start} end={end} />
         </div>
 
         <h4 className="font-mono text-sm font-semibold leading-none print:text-[12px]">
-          {title}
+          <CompanyLink company={company} link={link} />
         </h4>
       </CardHeader>
 
@@ -125,9 +122,9 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
             </ul>
           )}
         </div>
-        <div className="mt-2">
+        <div className="mt-2 print:mt-1">
           <BadgeList
-            className="-mx-2 flex-wrap gap-1 sm:hidden"
+            className="-mx-2 flex-wrap gap-1 mt-2 print:mt-0 print:gap-0.5 print:-mx-1 print:mb-2"
             badges={badges}
           />
         </div>
