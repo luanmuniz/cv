@@ -1,12 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'standalone',
+  output: 'export',
 
   // Enable React strict mode for better development experience
   reactStrictMode: true,
 
   // Optimize images
   images: {
+    unoptimized: true,
     remotePatterns: [
       {
         protocol: 'https',
