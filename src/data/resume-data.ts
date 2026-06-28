@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Full Stack Engineer building products from the ground up.",
   summary:
     "Full Stack Engineer with 15+ years of experience and 10+ years working remotely. Building high-performance web applications, leading distributed teams, and creating open source tools used by thousands of developers.",
-  avatarUrl: "https://avatars.githubusercontent.com/u/1017620?v=4",
+  avatarUrl: "https://avatars.githubusercontent.com/u/3428149?v=4",
   personalWebsiteUrl: "https://cv.luanmuniz.com.br",
   contact: {
     email: "bartosz.jarocki@hey.com",
