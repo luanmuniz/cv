@@ -66,6 +66,10 @@ interface CompanyLinkProps {
  * Renders company name with optional link
  */
 function CompanyLink({ company, link }: CompanyLinkProps) {
+  if(!link) {
+    return <span>{company}</span>;
+  }
+
   return (
     <a
       className="hover:underline"
@@ -112,7 +116,7 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
 
       <CardContent>
         <div className="mt-2 text-xs text-foreground/80 print:mt-1 print:text-[10px] text-pretty">
-          {description}
+          {description} <br /><br />
           {highlights && highlights.length > 0 && (
             <ul className="list-inside list-disc">
               {highlights.map((highlight) => (

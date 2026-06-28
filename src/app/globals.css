@@ -94,6 +94,10 @@
   animation: fadeIn 400ms ease-out both;
 }
 
+h2 {
+  border-bottom: 1px solid hsl(var(--border));
+}
+
 @media print {
   .animate-fade-in {
     animation: none !important;

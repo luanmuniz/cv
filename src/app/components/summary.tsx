@@ -16,7 +16,7 @@ export function Summary({ summary, className }: AboutProps) {
         About
       </h2>
       <div className="text-pretty font-mono text-sm text-foreground/80 print:text-[12px]">
-        {summary}
+        <span dangerouslySetInnerHTML={{ __html: summary.replace(/\n/g, "<br />") }} />
       </div>
     </Section>
   );
