@@ -6,11 +6,11 @@ export const RESUME_DATA: ResumeData = {
   location: "Remote, Spain",
   locationLink: "https://www.google.com/maps/place/Spain",
   about: "Backend/Platform Engineer | Lead Node.js | Serverless | Data Pipelines | Integrations",
-  summary: `Node.js backend and platform engineer with experience building scalable product systems, integrations, data pipelines, and platform architecture for high-volume applications. My strongest work sits at the intersection of backend engineering, product infrastructure, financial-data systems, and practical architecture: turning complex or messy product requirements into reliable services, workflows, and APIs that continue to scale.
+  summary: `I'm a Node.js backend and platform engineer with experience building scalable product systems, integrations, data pipelines, and platform architecture for high-volume applications. My strongest work sits at the intersection of backend, product, financial-data systems, and practical architecture: turning complex product ideas into reliable, scalable software, workflows and apis.
 
-Most recently at TrendSpider, I worked as an early backend/platform engineer on a small remote team, reporting directly to the CTO. I built core systems across authentication, user hydration, market scanners, JavaScript-based custom scripting, backtesting, serverless data pipelines, financial-data integrations, and Node.js runtime modernization since v10.
+Most recently at TrendSpider, I worked as an early backend/platform engineer on a small remote team, reporting directly to the CTO. I built core systems across authentication, user hydration, market scanners, JavaScript-based custom scripting, backtesting, serverless data pipelines, financial-data integrations, and more.
 
-Earlier in my career, I also worked on trading platforms, social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows.
+Earlier in my career, I also worked on social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows.
 
 Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lambda, serverless architecture, data pipelines, integrations, queues, Redis, MongoDB, PostgreSQL, Docker, CI/CD, system design, performance tuning.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/3428149?v=4",
@@ -54,12 +54,11 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
       end: "Mar 2026",
       description: `Backend/platform engineer on the engineering team building TrendSpider's trading analytics platform across Node.js microservices, AWS Lambda data pipelines, queues, databases, Docker runtimes, and CI/CD. Reported directly to the CTO and led technical decisions for major backend/platform capabilities, including authentication, non-market-data integrations, serverless architecture, and scanner/custom scripting.`,
       highlights: [
-        "Built TrendSpider's first proprietary Node.js authentication and user-hydration microservice, preserving billing compatibility while enabling independent scaling for millions of users and thousands of concurrent users.",
-        "Owned non-market-data and third-party integrations, building pipelines for Federal Reserve/FED data, FINRA, 13F filings, Relative Strength, Market Breadth, and WallStreetBets/Reddit content.",
+        "Built TrendSpider's authentication and user-hydration microservice, preserving billing compatibility while enabling independent scaling for millions of users and thousands of concurrent users.",
+        "Owned non-market-data and third-party integrations, building pipelines for FED data, FINRA, 13F filings, Relative Strength, Market Breadth, and WallStreetBets/Reddit content.",
         "Built serverless Relative Strength and Market Breadth pipelines from scratch, processing 6K+ tickers plus crypto, watchlists, indexes, sectors, and market-cap groups across years pricing and fundamental data.",
-        "Built scanner/custom-scripting backend functionality for JavaScript indicators, custom indicators, data comparison, and backtesting, using caching and separately scalable compute to scan thousands of tickers in under a minute.",
+        "Built scanner/custom-scripting backend functionality for JavaScript indicators, custom indicators, data comparison, and backtesting, using scalable compute to scan thousands of tickers.",
         "Led Node.js runtime modernization across almost all microservices from v10 through v24, managing native C++ module compatibility, security review, and JavaScript breaking-change risks.",
-        "Migrated microservice CI/CD workflows from Bitbucket to GitLab by adapting pipeline syntax and capabilities across services."
       ],
     },
     {
