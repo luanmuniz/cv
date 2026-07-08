@@ -6,21 +6,11 @@ export const RESUME_DATA: ResumeData = {
   location: "Remote, Spain",
   locationLink: "https://www.google.com/maps/place/Spain",
   about: "Backend/Platform Engineer | Lead Node.js | Serverless | Data Pipelines | Integrations",
-  summary: `I build Node.js backend and platform systems that turn complex product ideas into reliable, scalable software.  My strongest work sits between product engineering, integrations, and platform architecture. 
+  summary: `Node.js backend and platform engineer with experience building scalable product systems, integrations, data pipelines, and platform architecture for high-volume applications. My strongest work sits at the intersection of backend engineering, product infrastructure, financial-data systems, and practical architecture: turning complex or messy product requirements into reliable services, workflows, and APIs that continue to scale.
 
-I like taking messy, high-volume problems, breaking them into manageable parts, and designing services, pipelines, and workflows that can keep working as the product grows.  
+Most recently at TrendSpider, I worked as an early backend/platform engineer on a small remote team, reporting directly to the CTO. I built core systems across authentication, user hydration, market scanners, JavaScript-based custom scripting, backtesting, serverless data pipelines, financial-data integrations, and Node.js runtime modernization since v10.
 
-Most recently at TrendSpider, I was an early backend/platform engineer on a small remote team, reporting directly to the CTO. I built core systems across authentication, data integrations, scanners, custom scripting, backtesting, and serverless data pipelines.  Some of the work I’m proud of: 
-
-- Built a proprietary Node.js authentication and user-hydration service that still supports millions of users and thousands of concurrent users. 
-- Built scanner/custom-scripting infrastructure that lets users run JavaScript-based market scans and backtests across thousands of tickers in under a minute. 
-- Designed serverless Relative Strength and Market Breadth pipelines across 6K+ tickers, crypto, watchlists, indexes, sectors, market-cap groups, and years of pricing data. 
-- Led Node.js runtime modernization from v10 through v24 across a microservice-heavy platform, including compatibility, security, and native module risk analysis. 
-- Built and maintained integrations for financial, regulatory, macroeconomic, social-content, and market-analysis datasets.  
-
-Earlier in my career, I also worked on trading platforms, social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows. 
-
-I'm currently looking for remote Lead Node.js, Senior Backend, or Platform Engineering roles where I can help build durable product systems, improve architecture, and solve complex backend problems with practical engineering judgment.
+Earlier in my career, I also worked on trading platforms, social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows.
 
 Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lambda, serverless architecture, data pipelines, integrations, queues, Redis, MongoDB, PostgreSQL, Docker, CI/CD, system design, performance tuning.`,
   avatarUrl: "https://avatars.githubusercontent.com/u/3428149?v=4",
@@ -137,7 +127,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     }
   ],
   skills: [
-    'Node.js', 'JavaScript', 'Serverless Architecture', 'AWS Lambda', 'Data Pipelines', 
+    'Node.js', 'JavaScript', 'Serverless Architecture', 'AWS Lambda', 'Data Pipelines',
     'Integrations', 'Redis', 'MongoDB', 'PostgreSQL', 'Docker', 'CI/CD', 'Terraform',
     'Performance Tuning', 'Platform engineering', 'Microservices', 'WebRTC', 'WebSockets', 'Rust', 'Bash', 'React'
   ],
@@ -154,7 +144,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     {
       title: "Fintatica",
       techStack: ["Node.js", 'React', 'Bash', 'Rust'],
-      description: "Financial data platform that aggregates and analyzes financial, regulatory, and macroeconomic datasets. The platform provides insights into market trends, investment opportunities, and economic indicators.",
+      description: "Financial data platform that aggregates and analyzes financial, regulatory, and macroeconomic datasets. Insights into market trends, investment opportunities, and economic indicators.",
       link: {
         label: "fintatica.com",
         href: "https://fintatica.com.br/",
@@ -163,7 +153,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     {
       title: "Spotify Physical Radio",
       techStack: ["Node.js", 'RaspberryPi', 'Bash', 'Rust'],
-      description: "A real vintage radio that integrates with Spotify, merging old-school charm with modern streaming technology.",
+      description: "A real vintage radio that integrates with Spotify, turning real knobs to control the music.",
       link: {
         label: "spotify.com",
         href: "https://spotify.com/",
