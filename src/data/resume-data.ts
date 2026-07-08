@@ -31,7 +31,7 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
       },
       {
         name: "X",
-        url: "https://x.com/luanmuniz",
+        url: "https://x.com/lluanmuniz",
         icon: "x",
       },
     ],
