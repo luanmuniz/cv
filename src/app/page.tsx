@@ -7,6 +7,7 @@ import { Header } from "./components/header";
 import { Projects } from "./components/projects";
 import { Skills } from "./components/skills";
 import { Summary } from "./components/summary";
+import { Highlights } from "./components/highlights";
 import { WorkExperience } from "./components/work-experience";
 
 export const metadata: Metadata = {
@@ -86,8 +87,13 @@ export default function ResumePage() {
 
           <div className="space-y-8 print:space-y-4">
             <div className="animate-fade-in" style={{ animationDelay: "75ms" }}>
+              <Highlights highlights={RESUME_DATA.highlights} />
+            </div>
+
+            <div className="animate-fade-in" style={{ animationDelay: "75ms" }}>
               <Summary summary={RESUME_DATA.summary} />
             </div>
+
             <div
               className="animate-fade-in"
               style={{ animationDelay: "150ms" }}

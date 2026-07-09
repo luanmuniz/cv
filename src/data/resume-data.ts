@@ -6,9 +6,14 @@ export const RESUME_DATA: ResumeData = {
   location: "Remote, Spain",
   locationLink: "https://www.google.com/maps/place/Spain",
   about: "Backend/Platform Engineer | Lead Node.js | Serverless | Data Pipelines | Integrations",
-  summary: `I'm a Node.js backend and platform engineer with experience building scalable product systems, integrations, data pipelines, and platform architecture for high-volume applications. My strongest work sits at the intersection of backend, product, financial-data systems, and practical architecture: turning complex product ideas into reliable, scalable software, workflows and apis.
+  highlights: [
+    "<strong>Backend Platform Leadership</strong>: Led build of Node.js microservices, authentication, serverless architecture, integrations, and runtime modernization for high-volume trading systems.",
+    "<strong>Scalable Data Pipelines</strong>: Built AWS Lambda/serverless pipelines processing 6K+ tickers and large-scale financial/social datasets across Redis, MongoDB, and PostgreSQL.",
+    "<strong>Product-to-Platform Delivery</strong>: Led secure, scalable platforms from architecture to production across fintech, trading analytics, real-time communication, and data products.",
+  ],
+  summary: `I'm a Node.js backend and platform engineer with experience building scalable product systems, integrations, data pipelines for high-volume applications. My strongest work sits at the intersection of backend, product, financial-data systems, and practical architecture: turning complex ideas into scalable software, workflows and apis.
 
-Most recently at TrendSpider, I worked as an early backend/platform engineer on a small remote team, reporting directly to the CTO. I built core systems across authentication, user hydration, market scanners, JavaScript-based custom scripting, backtesting, serverless data pipelines, financial-data integrations, and more.
+Most recently at TrendSpider, as an early backend/platform engineer, reporting directly to the CTO. I built core systems across authentication, market scanners, JavaScript-based custom scripting, backtesting, serverless data pipelines, financial-data integrations, and more.
 
 Earlier in my career, I also worked on social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows.
 
