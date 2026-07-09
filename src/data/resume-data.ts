@@ -8,7 +8,7 @@ export const RESUME_DATA: ResumeData = {
   about: "Backend/Platform Engineer | Lead Node.js | Serverless | Data Pipelines | Integrations",
   highlights: [
     "<strong>Backend Platform Leadership</strong>: Led build of Node.js microservices, authentication, serverless architecture, integrations, and runtime modernization for high-volume trading systems.",
-    "<strong>Scalable Data Pipelines</strong>: Built AWS Lambda/serverless pipelines processing 6K+ tickers and large-scale financial/social datasets across Redis, MongoDB, and PostgreSQL.",
+    "<strong>Scalable Data Pipelines</strong>: Built AWS Lambda/serverless pipelines processing 6K+ tickers and 200M+ social profiles on large-scale financial/social datasets across Redis, MongoDB, and PostgreSQL.",
     "<strong>Product-to-Platform Delivery</strong>: Led secure, scalable platforms from architecture to production across fintech, trading analytics, real-time communication, and data products.",
   ],
   summary: `I'm a Node.js backend and platform engineer with experience building scalable product systems, integrations, data pipelines for high-volume applications. My strongest work sits at the intersection of backend, product, financial-data systems, and practical architecture: turning complex ideas into scalable software, workflows and apis.
