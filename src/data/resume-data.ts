@@ -136,15 +136,15 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     'Performance Tuning', 'Platform engineering', 'Microservices', 'WebRTC', 'WebSockets', 'Rust', 'Bash', 'React'
   ],
   projects: [
-    // {
-    //   title: "Contributor to Node.js",
-    //   techStack: ["Node.js"],
-    //   description: "Recently started to contribute to Node.js core and ecosystem, including benchmarks and issue management.",
-    //   link: {
-    //     label: "nodejs.org",
-    //     href: "https://nodejs.org/",
-    //   },
-    // },
+    {
+      title: "Contributor to Node.js",
+      techStack: ["Node.js"],
+      description: "Recently started to contribute to Node.js core and ecosystem, including benchmarks and issue management.",
+      link: {
+        label: "nodejs.org",
+        href: "https://nodejs.org/",
+      },
+    },
     {
       title: "Fintatica",
       techStack: ["Node.js", 'React', 'Bash', 'Rust'],
