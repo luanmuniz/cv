@@ -64,7 +64,7 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
         "Built serverless Relative Strength and Market Breadth pipelines from scratch, processing 6K+ tickers plus crypto, watchlists, indexes, sectors, and market-cap groups across years pricing and fundamental data.",
         "Built scanner/custom-scripting backend functionality for JavaScript indicators, custom indicators, data comparison, and backtesting, using scalable compute to scan thousands of tickers.",
         "Led Node.js runtime modernization across almost all microservices from v10 through v24, managing native C++ module compatibility, security review, and JavaScript breaking-change risks.",
-        "Built AI Workflow that allow users to create Custom Scripted TradeBots within a Secure environment, allowing users to create their own trading strategies using AI human language and backtest them against historical data.",
+        "Built AI Workflow that allow users to create Custom Scripted TradeBot Agents within a Secure environment, allowing users to create their own trading strategies using AI human language and backtest them against historical data.",
       ],
     },
     {
