@@ -121,7 +121,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
       badges: ["Remote", "Node.js", "Redis", "MongoDB", "Postgres"],
       title: "Senior FullStack Developer",
       start: "Aug 2013",
-      end: "Mar 2017",
+      end: "Mar 2014",
       description: `At Extraball I had the opportunity to work with Big Players in the Brazilian e-commerce creating a very wide experience in the area. Extraball is a powerful VTEX partner, one of the largest e-commerce platforms in Brazil. I've learned there to work remotely with big companies and how to communicate to all levels required.`,
       highlights: [
         "Worked with major Brazilian e-commerce companies, gaining extensive experience in the industry.",
