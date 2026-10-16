@@ -59,7 +59,7 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
       end: "Mar 2026",
       description: `Backend/platform engineer on the engineering team building TrendSpider's trading analytics platform across Node.js microservices, AWS Lambda data pipelines, queues, databases, Docker runtimes, and CI/CD. Reported directly to the CTO and led technical decisions for major backend/platform capabilities, including authentication, non-market-data integrations, serverless architecture, and scanner/custom scripting.`,
       highlights: [
-        "Built TrendSpider's authentication and user-hydration microservice, preserving billing compatibility while enabling independent scaling for millions of users and thousands of concurrent users.",
+        "Built TrendSpider's authentication and user-hydration microservice, preserving billing compatibility while enabling independent scaling for thousands of concurrent users.",
         "Owned non-market-data and third-party integrations, building pipelines for FED data, FINRA, 13F filings, Relative Strength, Market Breadth, and WallStreetBets/Reddit content.",
         "Built serverless Relative Strength and Market Breadth pipelines from scratch, processing 6K+ tickers plus crypto, watchlists, indexes, sectors, and market-cap groups across years pricing and fundamental data.",
         "Built scanner/custom-scripting backend functionality for JavaScript indicators, custom indicators, data comparison, and backtesting, using scalable compute to scan thousands of tickers.",
