@@ -100,7 +100,7 @@ export default function ResumePage() {
             >
               <WorkExperience work={RESUME_DATA.work} />
             </div>
-            {RESUME_DATA.education.length && <div
+            {!!RESUME_DATA.education.length && <div
               className="animate-fade-in"
               style={{ animationDelay: "225ms" }}
             >
