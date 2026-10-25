@@ -42,12 +42,12 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
     ],
   },
   education: [
-    {
-      school: "OPIT - Open Institute of Technology",
-      degree: "Bachelor's Degree (BSc) (Hons) in Computer Science",
-      start: "2025",
-      end: "2028"
-    },
+    // {
+    //   school: "OPIT - Open Institute of Technology",
+    //   degree: "Bachelor's Degree (BSc) (Hons) in Computer Science",
+    //   start: "2025",
+    //   end: "2028"
+    // },
   ],
   work: [
     {

@@ -100,12 +100,12 @@ export default function ResumePage() {
             >
               <WorkExperience work={RESUME_DATA.work} />
             </div>
-            <div
+            {RESUME_DATA.education.length && <div
               className="animate-fade-in"
               style={{ animationDelay: "225ms" }}
             >
               <Education education={RESUME_DATA.education} />
-            </div>
+            </div>}
             <div
               className="animate-fade-in"
               style={{ animationDelay: "300ms" }}
