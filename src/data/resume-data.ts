@@ -3,8 +3,8 @@ import type { ResumeData } from "@/lib/types";
 export const RESUME_DATA: ResumeData = {
   name: "Luan Muniz",
   initials: "LM",
-  location: "Remote, Spain",
-  locationLink: "https://www.google.com/maps/place/Spain",
+  location: "Remote, Brazil",
+  locationLink: "https://www.google.com/maps/place/Brazil",
   about: "Backend/Platform Engineer | Lead Node.js | Serverless | Data Pipelines | Integrations",
   highlights: [
     "<strong>Backend Platform Leadership</strong>: Led build of Node.js microservices, authentication, serverless architecture, integrations, and runtime modernization for high-volume trading systems.",
