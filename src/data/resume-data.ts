@@ -18,7 +18,7 @@ Most recently at TrendSpider, as an early backend/platform engineer, reporting d
 Earlier in my career, I also worked on social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows.
 
 Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lambda, serverless architecture, data pipelines, integrations, queues, Redis, MongoDB, PostgreSQL, Docker, CI/CD, system design, performance tuning.`,
-  avatarUrl: "https://avatars.githubusercontent.com/u/3428149?v=4",
+  avatarUrl: "https://gravatar.com/userimage/10357206/88bd474f5c6f729c5c9393689b1a536c.jpeg?v=1792919758000&size=256",
   personalWebsiteUrl: "https://luanmuniz.com.br",
   contact: {
     email: "luan@luanmuniz.com.br",
