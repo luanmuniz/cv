@@ -11,7 +11,7 @@ export const RESUME_DATA: ResumeData = {
     "<strong>Scalable Data Pipelines</strong>: Built AWS Lambda/serverless pipelines processing 6K+ tickers and 200M+ social profiles on large-scale financial/social datasets across Redis, MongoDB, and PostgreSQL.",
     "<strong>Product-to-Platform Delivery</strong>: Led secure, scalable platforms from architecture to production across fintech, trading analytics, real-time communication, and data products.",
   ],
-  summary: `I'm a Node.js backend and platform engineer with experience building scalable product systems, integrations, data pipelines for high-volume applications. My strongest work sits at the intersection of backend, product, financial-data systems, and practical architecture: turning complex ideas into scalable software, workflows and apis.
+  summary: `Senior Backend Engineer specializing in Node.js, data pipelines, and integrations for high-volume products, with experience building scalable systems. My strongest work sits at the intersection of backend, product, financial-data systems, and practical architecture: turning complex ideas into scalable software, workflows and apis.
 
 Most recently at TrendSpider, as an early backend/platform engineer, reporting directly to the CTO. I built core systems across authentication, market scanners, JavaScript-based custom scripting, backtesting, serverless data pipelines, financial-data integrations, and more.
 
@@ -53,17 +53,17 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
     {
       company: "TrendSpider LLC",
       link: "https://trendspider.com/",
-      badges: ["Remote", "Node.js", "Serverless", "AWS Lambda", "Data Pipelines", "Data Integrations", "AI Workflows", "AI Agents", "AI Automation"],
-      title: "Backend/Platform Engineer",
+      badges: ["Remote", "Node.js", "Typescript", "Serverless", "AWS Lambda", "Data Pipelines", "Data Integrations", "AI Workflows", "AI Agents", "AI Automation"],
+      title: "Senior Backend/Platform Engineer",
       start: "Feb 2021",
       end: "Mar 2026",
-      description: `Backend/platform engineer on the engineering team building TrendSpider's trading analytics platform across Node.js microservices, AWS Lambda data pipelines, queues, databases, Docker runtimes, and CI/CD. Reported directly to the CTO and led technical decisions for major backend/platform capabilities, including authentication, non-market-data integrations, serverless architecture, and scanner/custom scripting.`,
+      description: `Senior Backend/platform engineer on the engineering team building TrendSpider's trading analytics platform across Node.js/Typescript microservices, AWS Lambda data pipelines, queues, databases, Docker runtimes, and CI/CD. Reported directly to the CTO and led technical decisions for major backend/platform capabilities, including authentication, non-market-data integrations, serverless architecture, and scanner/custom scripting.`,
       highlights: [
-        "Built TrendSpider's authentication and user-hydration microservice, preserving billing compatibility while enabling independent scaling for thousands of concurrent users.",
+        "Built authentication and user-hydration services in Node.js/Typescript, preserving billing compatibility while enabling independent scaling for thousands of concurrent users.",
         "Owned non-market-data and third-party integrations, building pipelines for FED data, FINRA, 13F filings, Relative Strength, Market Breadth, and WallStreetBets/Reddit content.",
-        "Built serverless Relative Strength and Market Breadth pipelines from scratch, processing 6K+ tickers plus crypto, watchlists, indexes, sectors, and market-cap groups across years pricing and fundamental data.",
+        "Built serverless market-data pipelines in AWS Lambda, processing thousands of tickers across crypto, watchlists, indexes, sectors, and market-cap groups using years of pricing and fundamental data.",
         "Built scanner/custom-scripting backend functionality for JavaScript indicators, custom indicators, data comparison, and backtesting, using scalable compute to scan thousands of tickers.",
-        "Led Node.js runtime modernization across almost all microservices from v10 through v24, managing native C++ module compatibility, security review, and JavaScript breaking-change risks.",
+        "Led Node.js/Typescript runtime modernization across almost all microservices from v10 through v24, managing native C++ module compatibility, security review, and JavaScript breaking-change risks.",
         "Built AI Workflow that allow users to create Custom TradeBot Agents within a Secure environment, allowing users to create their own trading strategies using AI human language and backtest them against historical data.",
       ],
     },
@@ -78,7 +78,7 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
 
 The Platform is of vital importance to the market since we are 1 of the 2 platforms in the entire market that provide this service. The stability and confidence of the platform are also very important since even the small contracts in the platform can be worth more than a few hundred thousand BRL.`,
       highlights: [
-        "Created the entire platform from scratch, including the database architecture, backend, and frontend.",
+        "Created the platform from scratch, including database architecture, backend services, and frontend delivery for a secure, scalable trading product.",
         "Implemented WebRTC and WebSockets for real-time communication between users.",
         "Ensured the platform's security and scalability to handle high-value transactions.",
         "Led a small team of developers, fostering collaboration and efficient development practices."
@@ -132,10 +132,10 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     }
   ],
   skills: [
-    'Node.js', 'JavaScript', 'Serverless Architecture', 'AWS Lambda', 'Data Pipelines',
-    'Integrations', 'Redis', 'MongoDB', 'PostgreSQL', 'Docker', 'CI/CD', 'Terraform',
-    'Performance Tuning', 'Platform engineering', 'Microservices', 'WebRTC', 'WebSockets', 'Rust', 'Bash', 'React',
-    'OpenAI SDK', 'AI Integration', 'Custom Scripted TradeBots', 'AI Agents', 'AI Workflows', 'AI Automation'
+    'Node.js', 'Typescript', 'Javascript', 'Serverless', 'AWS Lambda', 'PostgreSQL', 'Redis', 'MongoDB',
+    'Microservices', 'Data Pipelines', 'Integrations', 'Docker', 'CI/CD', 'Terraform',
+    'Performance Tuning', 'Platform engineering', 'WebSockets', 'Rust', 'Bash', 'React',
+    'OpenAI SDK', 'AI Integration', 'Custom Scripted TradeBots', 'AI Agents', 'AI Workflows', 'AI Automation', 'Serverless Architecture'
   ],
   projects: [
     {
