@@ -15,12 +15,12 @@ interface SkillsListProps {
 function SkillsList({ skills, className }: SkillsListProps) {
   return (
     <ul
-      className={cn("flex list-none flex-wrap gap-1 p-0", className)}
+      className={cn("flex list-none flex-wrap gap-1 p-0 print:gap-0", className)}
       aria-label="List of skills"
     >
       {skills.map((skill) => (
         <li key={skill}>
-          <Badge className="print:text-[10px] print:text-black print:bg-transparent" aria-label={`Skill: ${skill}`}>
+          <Badge className="print:text-[10px] print:text-black print:bg-transparent print:mr-1" aria-label={`Skill: ${skill}`}>
             {skill}<span className="hidden print:inline-flex">,</span>
           </Badge>
         </li>

@@ -5,19 +5,16 @@ export const RESUME_DATA: ResumeData = {
   initials: "LM",
   location: "Remote",
   locationLink: "#",
-  about: "Senior Backend Engineer | Lead Node.js | Data Pipelines | Integrations",
+  about: "Senior Backend Engineer | Node.js, TypeScript, AWS | Fintech & Market Data | AI Agents",
   highlights: [
-    "<strong>Backend Platform Leadership</strong>: Led build of Node.js microservices, authentication, serverless architecture, integrations, and runtime modernization for high-volume trading systems.",
+    "<strong>Backend Platform Leadership</strong>: Five years as an early engineer at TrendSpider, a US trading platform that grew from 4,000+ traders in 2020 to 20,000+ by 2026. Built its authentication service, which still handles every user, and the pipelines behind its alternative data.",
     "<strong>Scalable Data Pipelines</strong>: Built AWS Lambda/serverless pipelines processing 6K+ tickers and 200M+ social profiles on large-scale financial/social datasets across Redis, MongoDB, and PostgreSQL.",
-    "<strong>Product-to-Platform Delivery</strong>: Led secure, scalable platforms from architecture to production across fintech, trading analytics, real-time communication, and data products.",
+    "<strong>AI in production</strong>: built the backend for TrendSpider's AI coding assistant, which also powers code generation in Sidekick, the platform's AI agent. Traders describe an strategy or bot in English and we allow them to run and backtest on them.",
+    "<strong>Founder and team lead</strong>: co-founder and CTO of Zimp, acquired in 2017. Later technical lead and partner at ENbox, an trading platform: hired the engineering team and built the product from scratch.",
   ],
-  summary: `Senior Backend Engineer specializing in Node.js, data pipelines, and integrations for high-volume products, with experience building scalable systems. My strongest work sits at the intersection of backend, product, financial-data systems, and practical architecture: turning complex ideas into scalable software, workflows and apis.
+  summary: `Senior Backend Engineer with 15+ years of experience specializing in Node.js, data pipelines, and high-volume integrations, with experience building scalable systems. My strongest work sits at the intersection of backend, product, and practical architecture: turning complex ideas into scalable software, workflows and apis.
 
-Most recently at TrendSpider, as an early backend/platform engineer, reporting directly to the CTO. I built core systems across authentication, market scanners, JavaScript-based custom scripting, backtesting, serverless data pipelines, financial-data integrations, and more.
-
-Earlier in my career, I also worked on social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows.
-
-Core skills: Node.js, JavaScript, Typescript, Backend, platform engineering, AWS Lambda, serverless architecture, data pipelines, integrations, queues, Redis, MongoDB, PostgreSQL, Docker, CI/CD, system design, performance tuning.`,
+I've been an early engineer at a US trading platform, co-founder and CTO of a fintech that was acquired, and technical partner at an energy-trading platform, so I'm used to owning a system from the first commit through years of production.`,
   avatarUrl: "https://gravatar.com/userimage/10357206/88bd474f5c6f729c5c9393689b1a536c.jpeg?v=1792919758000&size=256",
   personalWebsiteUrl: "https://luanmuniz.com.br",
   contact: {
@@ -34,11 +31,6 @@ Core skills: Node.js, JavaScript, Typescript, Backend, platform engineering, AWS
         url: "https://www.linkedin.com/in/luanmuniz/",
         icon: "linkedin",
       },
-      {
-        name: "X",
-        url: "https://x.com/lluanmuniz",
-        icon: "x",
-      },
     ],
   },
   education: [
@@ -53,39 +45,39 @@ Core skills: Node.js, JavaScript, Typescript, Backend, platform engineering, AWS
     {
       company: "TrendSpider LLC",
       link: "https://trendspider.com/",
-      badges: ["Remote", "Node.js", "Typescript", "Serverless", "AWS Lambda", "Data Pipelines", "Data Integrations", "AI Workflows", "AI Agents", "AI Automation"],
-      title: "Senior Backend/Platform Engineer",
+      badges: ["Node.js", "TypeScript", "Fastify", "Express", "AWS Lambda", "SQS", "Redis", "Kubernetes", "Terraform", "Prometheus", "CloudWatch", "AI Agents"],
+      title: "Senior Backend Engineer",
       start: "Feb 2021",
       end: "Mar 2026",
       description: `Senior Backend/platform engineer on the engineering team building TrendSpider's trading analytics platform, reporting directly to the CTO. Owned core Node.js/Typescript microservices, AWS Lambda data pipelines, queues, databases, Docker runtimes, and CI/CD, and led technical decisions for major backend/platform capabilities, including authentication, non-market-data integrations, serverless architecture, and scanner/custom scripting.`,
       highlights: [
-        "Built authentication and user-hydration services in Node.js/Typescript, preserving billing compatibility while enabling independent scaling for thousands of concurrent users.",
-        "Owned third-party integrations and data pipelines for Federal Reserve data, FINRA, 13F filings, and WallStreetBets/Reddit content.",
-        "Built the backend for JavaScript-based custom indicators, market scanning, data comparison, and backtesting, using scalable compute to scan thousands of tickers.",
-        "Led Node.js/Typescript runtime modernization across almost all microservices from v10 through v24, managing native C++ module compatibility, security review, and JavaScript breaking-change risks.",
-        "Built AI Workflow that allow users to create Custom TradeBot Agents within a Secure environment, allowing users to create their own trading strategies using AI human language and backtest them against historical data.",
+        "Replaced the WordPress-based login with a standalone authentication and user-hydration service in Node.js, enabling independent scaling for thousands of concurrent users.",
+        "Built the backend used in the AI coding assistant, which also powers code generation in Sidekick, TrendSpider's AI agent. Traders describe an indicator, strategy or trading bot in plain English, the system concerts to code and it in a sandbox and lets them backtest it on historical data.",
+        "Owned third-party integrations and data pipelines for Federal Reserve data, FINRA, 13F filings, and WallStreetBets/Reddit content, used across charts, scanners and watchlists.",
+        "Built backend features for the market scanner and custom JavaScript scripting, such as custom indicators, data comparison and backtesting, running scans across thousands of tickers on demand.",
+        "Led Node.js/Typescript modernization on every backend service, 10+ microservices on Kubernetes plus the Lambda functions, handling native C++ module compatibility, breaking changes and a security review for each major version since v10."
       ],
     },
     {
       company: "ENbox Brasil",
       link: "https://enbox.com.br/",
-      badges: ["Hybrid", "Node.js", "WebRTC", "WebSockets", "Postgres"],
-      title: "Technical Lead Engineer",
+      badges: ["Node.js", "Postgres", "WebRTC", "WebSockets"],
+      title: "Technical Lead & Partner",
       start: "Apr 2019",
       end: "Jan 2021",
       description: `Technical lead for an OTC trading platform serving Brazil's energy market, supporting contracts worth hundreds of thousands of BRL. Responsible for backend and database architecture, with security, reliability, and scalability central to the platform's design and delivery.
 
-ENbox was an OTC (Over The Counter) investing platform for the Brazilian Energy market. The Platform was of vital importance to the market since we were 1 of the 2 platforms in the entire market that provide this service. The stability and confidence of the platform are also very important since even the small contracts in the platform can be worth more than a few hundred thousand BRL.`,
+ENbox was an OTC trading desk for Brazil's free electricity market and an important platform since we were 1 of the 2 platforms in the market that provide this service.`,
       highlights: [
-        "Created the platform from scratch, including database architecture, backend services, and frontend delivery for a secure, scalable trading product.",
-        "Implemented WebRTC and WebSockets for real-time communication between users.",
-        "Led technical delivery within a 7-person development team, coordinating database design, backend implementation, and frontend integration."
+        "Hired and led the engineering team, and was responsible for the platform's security and reliability.",
+        "Designed and built the platform end to end, from the PostgreSQL data model to the frontend: real-time buy and sell orders, per-counterparty energy, credit and delivery-period limits, electronic trade tickets and contract e-signature.",
+        "Built real-time negotiation between counterparties over WebSockets and WebRTC, where even small contracts are worth several hundred thousand BRL.",
       ],
     },
     {
       company: "ManageFlitter",
       link: "https://manageflitter.com/",
-      badges: ["Remote", "Node.js", "Redis", "MongoDB", "Postgres"],
+      badges: ["Remote", "Node.js", "Serverless", "Redis", "MongoDB", "PostgreSQL"],
       title: "Technical Lead Engineer",
       start: "May 2017",
       end: "Mar 2019",
@@ -93,7 +85,7 @@ ENbox was an OTC (Over The Counter) investing platform for the Brazilian Energy 
 Owned backend architecture and large-scale data workflows, using serverless components to support fast access to extensive social-profile datasets and keep them up to date.
 The hundreds of GB Database was a big challenge, to make that available to all users in a quick and consistent way was one of the biggest selling points of the platform. Keep all that up to date and consistent required a system that checks and update every data at a fast pace. `,
       highlights: [
-        "Led the development of the replacement of the ManageFlitter platform with a serverless platform designed for scalability and maintainability.",
+        "Led the rebuild of the legacy product as ManageSocial on a serverless architecture that was easier to scale and maintain.",
         "Managed hundreds of gigabytes of indexed data covering 200M+ Twitter profiles and 40M+ Instagram profiles, maintaining data integrity and query performance.",
         "Built indexing and data-refresh workflows to keep profile data current and provide fast, consistent access for users."
       ],
@@ -101,16 +93,16 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     {
       company: "Zimp",
       link: "https://zimp.com.br/",
-      badges: ["Remote", "Node.js", "Redis", "MongoDB", "Postgres"],
-      title: "Co Founder & In charge of Technology and data",
+      badges: ["Remote", "Node.js", "Redis", "MongoDB", "Postgres", "Terraform"],
+      title: "Co-founder & CTO",
       start: "Nov 2013",
       end: "May 2017",
-      description: `Co-founder and Node.js developer in charge of build the API systems, the integrations with the e-commerces and the data analysis from those.`,
+      description: `Co-founder and Node.js developer in charge of build the API systems, the integrations with the e-commerces and the data analysis from those. Acquired by Rede Pay, a Brazilian payments company, in 2017.`,
       highlights: [
         "Co-founded Zimp, a company focused on providing API systems and integrations for e-commerce platforms.",
-        "Developed and maintained the backend systems using Node.js, ensuring high performance and reliability.",
-        "Implemented data analysis tools to extract insights from e-commerce data, improving business decision-making.",
-        "Collaborated with cross-functional teams to deliver innovative solutions for clients."
+        "Built a crawler that pulled the full catalog and prices from partner online stores, 10M+ SKUs in about 4 hours, so members could spend their points on any partner product.",
+        "Implemented data analysis to extract insights from industry data, improving business decision-making.",
+        "Built the Node.js API, the integrations with partner and the analytics on their sales data."
       ],
     }, {
       company: "Extraball",
@@ -119,20 +111,19 @@ The hundreds of GB Database was a big challenge, to make that available to all u
       title: "Senior FullStack Developer",
       start: "Aug 2013",
       end: "Mar 2014",
-      description: `At Extraball I had the opportunity to work with Big Players in the Brazilian e-commerce creating a very wide experience in the area. Extraball is a powerful VTEX partner, one of the largest e-commerce platforms in Brazil. I've learned there to work remotely with big companies and how to communicate to all levels required.`,
+      description: `At Extraball I had the opportunity to work with Big Players in the Brazilian e-commerce creating a very wide experience in the area. Extraball is a powerful VTEX partner, one of the largest e-commerce platforms in Brazil.`,
       highlights: [
         "Worked with major Brazilian e-commerce companies, gaining extensive experience in the industry.",
-        "Developed and maintained full-stack applications using Node.js and React, ensuring high-quality code and performance.",
-        "Collaborated with cross-functional teams to deliver innovative solutions for clients.",
-        "Learned to work remotely with large companies, effectively communicating across all levels of the organization."
       ],
     }
   ],
   skills: [
-    'Node.js', 'Typescript', 'Javascript', 'Serverless', 'AWS Lambda', 'PostgreSQL', 'Redis', 'MongoDB',
-    'Microservices', 'Data Pipelines', 'Integrations', 'Docker', 'CI/CD', 'Terraform',
-    'Performance Tuning', 'Platform engineering', 'WebSockets', 'Rust', 'Bash', 'React',
-    'OpenAI SDK', 'AI Integration', 'Custom Scripted TradeBots', 'AI Agents', 'AI Workflows', 'AI Automation', 'Serverless Architecture'
+    "TypeScript", "Node.js", "JavaScript", "Fastify", "Express",
+    "AWS", "AWS Lambda", "SQS", "Serverless", "Microservices",
+    "Distributed Systems", "Event-Driven Architecture", "REST APIs", "WebSockets",
+    "PostgreSQL", "Redis", "MongoDB", "Data Pipelines", "Web Crawling",
+    "Docker", "Kubernetes", "Terraform", "CI/CD", "Performance Tuning", "LLM Integration", "AI Agents", "OpenAI API",
+    "Rust", "React"
   ],
   projects: [
     {
@@ -147,7 +138,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     {
       title: "Fintatica",
       techStack: ["Node.js", 'React', 'Bash', 'Rust'],
-      description: "Financial data platform aggregating and analyzing financial, regulatory, and macroeconomic datasets, demonstrating data integration and processing.",
+      description: "APIs that standardize Brazilian financial, regulatory and macroeconomic data from CVM, B3 and IBGE. Live and used by independent financial consultants.",
       link: {
         label: "fintatica.com",
         href: "https://fintatica.com.br/",

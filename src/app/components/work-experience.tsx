@@ -73,7 +73,7 @@ function CompanyLink({ company, link }: CompanyLinkProps) {
 
   return (
     <a
-      className="hover:underline"
+      className="hover:underline print:ml-1"
       href={link}
       target="_blank"
       rel="noopener noreferrer"
@@ -101,12 +101,14 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
       <CardHeader className="print:space-y-1">
         <div className="flex items-center justify-between gap-x-2 text-base">
           <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
-            {title}
+            {title} <span className="text-sm font-semibold leading-none print:text-[12px] hidden print:inline-flex">
+          at <CompanyLink company={company} link={link} />
+        </span>
           </h3>
           <WorkPeriod start={start} end={end} />
         </div>
 
-        <h4 className="font-mono text-sm font-semibold leading-none print:text-[12px]">
+        <h4 className="font-mono text-sm font-semibold leading-none print:text-[12px] print:hidden">
           <CompanyLink company={company} link={link} />
         </h4>
       </CardHeader>

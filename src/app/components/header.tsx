@@ -27,7 +27,7 @@ interface LocationLinkProps {
 
 function LocationLink({ location, locationLink }: LocationLinkProps) {
   return (
-    <p className="max-w-md items-center text-pretty font-mono text-xs text-foreground">
+    <p className="max-w-md items-center text-pretty font-mono text-xs text-foreground print:w-fit">
       <a
         className="inline-flex gap-x-1.5 align-baseline leading-none hover:underline"
         href={locationLink}
@@ -123,7 +123,7 @@ interface PrintContactProps {
 
 function PrintContact({ contact, personalWebsiteUrl }: PrintContactProps) {
   return (
-    <div className="hidden gap-x-2 font-mono text-sm text-foreground/80 print:flex print:text-[12px]">
+    <div className="hidden gap-x-2 font-mono text-sm text-foreground/80 print:flex print:text-[12px] print:ml-3">
       {personalWebsiteUrl && (
         <>
           <a
@@ -174,20 +174,22 @@ export function Header() {
           {RESUME_DATA.about}
         </p>
 
-        <LocationLink
-          location={RESUME_DATA.location}
-          locationLink={RESUME_DATA.locationLink}
-        />
+        <div className="print:flex print:items-end">
+          <LocationLink
+            location={RESUME_DATA.location}
+            locationLink={RESUME_DATA.locationLink}
+          />
 
-        <ContactButtons
-          contact={RESUME_DATA.contact}
-          personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
-        />
+          <ContactButtons
+            contact={RESUME_DATA.contact}
+            personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
+          />
 
-        <PrintContact
-          contact={RESUME_DATA.contact}
-          personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
+          <PrintContact
+            contact={RESUME_DATA.contact}
+            personalWebsiteUrl={RESUME_DATA.personalWebsiteUrl}
         />
+        </div>
       </div>
 
       <Avatar
