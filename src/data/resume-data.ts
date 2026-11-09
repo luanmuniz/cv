@@ -5,7 +5,7 @@ export const RESUME_DATA: ResumeData = {
   initials: "LM",
   location: "Remote",
   locationLink: "#",
-  about: "Backend/Platform Engineer | Lead Node.js | Serverless | Data Pipelines | Integrations",
+  about: "Senior Backend Engineer | Lead Node.js | Data Pipelines | Integrations",
   highlights: [
     "<strong>Backend Platform Leadership</strong>: Led build of Node.js microservices, authentication, serverless architecture, integrations, and runtime modernization for high-volume trading systems.",
     "<strong>Scalable Data Pipelines</strong>: Built AWS Lambda/serverless pipelines processing 6K+ tickers and 200M+ social profiles on large-scale financial/social datasets across Redis, MongoDB, and PostgreSQL.",
@@ -17,7 +17,7 @@ Most recently at TrendSpider, as an early backend/platform engineer, reporting d
 
 Earlier in my career, I also worked on social-data products, search systems, sync pipelines, CI/CD, production operations, and high-scale data workflows.
 
-Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lambda, serverless architecture, data pipelines, integrations, queues, Redis, MongoDB, PostgreSQL, Docker, CI/CD, system design, performance tuning.`,
+Core skills: Node.js, JavaScript, Typescript, Backend, platform engineering, AWS Lambda, serverless architecture, data pipelines, integrations, queues, Redis, MongoDB, PostgreSQL, Docker, CI/CD, system design, performance tuning.`,
   avatarUrl: "https://gravatar.com/userimage/10357206/88bd474f5c6f729c5c9393689b1a536c.jpeg?v=1792919758000&size=256",
   personalWebsiteUrl: "https://luanmuniz.com.br",
   contact: {
@@ -57,12 +57,11 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
       title: "Senior Backend/Platform Engineer",
       start: "Feb 2021",
       end: "Mar 2026",
-      description: `Senior Backend/platform engineer on the engineering team building TrendSpider's trading analytics platform across Node.js/Typescript microservices, AWS Lambda data pipelines, queues, databases, Docker runtimes, and CI/CD. Reported directly to the CTO and led technical decisions for major backend/platform capabilities, including authentication, non-market-data integrations, serverless architecture, and scanner/custom scripting.`,
+      description: `Senior Backend/platform engineer on the engineering team building TrendSpider's trading analytics platform, reporting directly to the CTO. Owned core Node.js/Typescript microservices, AWS Lambda data pipelines, queues, databases, Docker runtimes, and CI/CD, and led technical decisions for major backend/platform capabilities, including authentication, non-market-data integrations, serverless architecture, and scanner/custom scripting.`,
       highlights: [
         "Built authentication and user-hydration services in Node.js/Typescript, preserving billing compatibility while enabling independent scaling for thousands of concurrent users.",
-        "Owned non-market-data and third-party integrations, building pipelines for FED data, FINRA, 13F filings, Relative Strength, Market Breadth, and WallStreetBets/Reddit content.",
-        "Built serverless market-data pipelines in AWS Lambda, processing thousands of tickers across crypto, watchlists, indexes, sectors, and market-cap groups using years of pricing and fundamental data.",
-        "Built scanner/custom-scripting backend functionality for JavaScript indicators, custom indicators, data comparison, and backtesting, using scalable compute to scan thousands of tickers.",
+        "Owned third-party integrations and data pipelines for Federal Reserve data, FINRA, 13F filings, and WallStreetBets/Reddit content.",
+        "Built the backend for JavaScript-based custom indicators, market scanning, data comparison, and backtesting, using scalable compute to scan thousands of tickers.",
         "Led Node.js/Typescript runtime modernization across almost all microservices from v10 through v24, managing native C++ module compatibility, security review, and JavaScript breaking-change risks.",
         "Built AI Workflow that allow users to create Custom TradeBot Agents within a Secure environment, allowing users to create their own trading strategies using AI human language and backtest them against historical data.",
       ],
@@ -74,14 +73,13 @@ Core skills: Node.js, JavaScript, backend systems, platform engineering, AWS Lam
       title: "Technical Lead Engineer",
       start: "Apr 2019",
       end: "Jan 2021",
-      description: `ENbox is an OTC (Over The Counter) investing platform for the Brazilian Energy market. I was the main lead developer creating the entire platform. From the Database architecture to the Frontend. Our development team was small, 7 people, but we managed to create a platform that is very secure and scalable.
+      description: `Technical lead for an OTC trading platform serving Brazil's energy market, supporting contracts worth hundreds of thousands of BRL. Responsible for backend and database architecture, with security, reliability, and scalability central to the platform's design and delivery.
 
-The Platform is of vital importance to the market since we are 1 of the 2 platforms in the entire market that provide this service. The stability and confidence of the platform are also very important since even the small contracts in the platform can be worth more than a few hundred thousand BRL.`,
+ENbox was an OTC (Over The Counter) investing platform for the Brazilian Energy market. The Platform was of vital importance to the market since we were 1 of the 2 platforms in the entire market that provide this service. The stability and confidence of the platform are also very important since even the small contracts in the platform can be worth more than a few hundred thousand BRL.`,
       highlights: [
         "Created the platform from scratch, including database architecture, backend services, and frontend delivery for a secure, scalable trading product.",
         "Implemented WebRTC and WebSockets for real-time communication between users.",
-        "Ensured the platform's security and scalability to handle high-value transactions.",
-        "Led a small team of developers, fostering collaboration and efficient development practices."
+        "Led technical delivery within a 7-person development team, coordinating database design, backend implementation, and frontend integration."
       ],
     },
     {
@@ -91,14 +89,13 @@ The Platform is of vital importance to the market since we are 1 of the 2 platfo
       title: "Technical Lead Engineer",
       start: "May 2017",
       end: "Mar 2019",
-      description: `I was the leading developer for the ManageSocial platform. That project was built to replace the entire ManageFlitter software using a modern, more scalable and more maintainable development cycle. The entire architecture was done using serverless components. 
-
-The hundreds of GB Database was a big challenge, to make that available to all users in a quick and consistent way was one of the biggest selling points of the platform. We had more than 200M Twitter users and more than 40M Instagram users indexed in our database. Keep all that up to date and consistent required a system that checks and update every data at a fast pace. `,
+      description: `Technical lead for ManageSocial, a social-data platform built to replace the previous platform ManageFlitter software using a modern, more scalable and more maintainable development cycle. 
+Owned backend architecture and large-scale data workflows, using serverless components to support fast access to extensive social-profile datasets and keep them up to date.
+The hundreds of GB Database was a big challenge, to make that available to all users in a quick and consistent way was one of the biggest selling points of the platform. Keep all that up to date and consistent required a system that checks and update every data at a fast pace. `,
       highlights: [
-        "Led the development of the ManageSocial platform, replacing the entire ManageFlitter software with a modern, scalable architecture.",
-        "Implemented serverless components to handle the large-scale database, ensuring quick and consistent access for users.",
-        "Managed a database with over 200M Twitter users and 40M Instagram users, maintaining data integrity and performance.",
-        "Developed efficient data indexing and updating mechanisms to keep the platform responsive and reliable."
+        "Led the development of the replacement of the ManageFlitter platform with a serverless platform designed for scalability and maintainability.",
+        "Managed hundreds of gigabytes of indexed data covering 200M+ Twitter profiles and 40M+ Instagram profiles, maintaining data integrity and query performance.",
+        "Built indexing and data-refresh workflows to keep profile data current and provide fast, consistent access for users."
       ],
     },
     {
@@ -141,7 +138,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     {
       title: "Contributor to Node.js",
       techStack: ["Node.js"],
-      description: "Recently started to contribute to Node.js core and ecosystem, including benchmarks and issue management.",
+      description: "Contributions to Node.js core and ecosystem, including benchmarks and issue management, supporting runtime performance evaluation and maintenance.",
       link: {
         label: "nodejs.org",
         href: "https://nodejs.org/",
@@ -150,7 +147,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     {
       title: "Fintatica",
       techStack: ["Node.js", 'React', 'Bash', 'Rust'],
-      description: "Financial data platform that aggregates and analyzes financial, regulatory, and macroeconomic datasets. Insights into market trends, investment opportunities, and economic indicators.",
+      description: "Financial data platform aggregating and analyzing financial, regulatory, and macroeconomic datasets, demonstrating data integration and processing.",
       link: {
         label: "fintatica.com",
         href: "https://fintatica.com.br/",
@@ -159,11 +156,7 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     {
       title: "Spotify Physical Radio",
       techStack: ["Node.js", 'RaspberryPi', 'Bash', 'Rust'],
-      description: "A real vintage radio that integrates with Spotify, turning real knobs to control the music.",
-      link: {
-        label: "spotify.com",
-        href: "https://spotify.com/",
-      },
+      description: "Integrated a vintage radio with Spotify, using physical knobs to control playback and demonstrating hardware/software integration.",
     },
   ],
 } as const;

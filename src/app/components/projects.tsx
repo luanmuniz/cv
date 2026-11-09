@@ -121,12 +121,12 @@ interface ProjectsProps {
  */
 export function Projects({ projects }: ProjectsProps) {
   return (
-    <Section className="scroll-mb-16 print:space-y-4">
+    <Section className="scroll-mb-16">
       <h2 className="text-xl font-bold" id="side-projects">
-        Side projects
+        Projects
       </h2>
       <div
-        className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-3 print:gap-2 print:-mx-0"
+        className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-1 print:gap-2 print:-mx-0"
         role="feed"
         aria-labelledby="side-projects"
       >
