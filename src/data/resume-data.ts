@@ -12,9 +12,9 @@ export const RESUME_DATA: ResumeData = {
     "<strong>AI in production</strong>: built the backend for TrendSpider's AI coding assistant, which also powers code generation in Sidekick, the platform's AI agent. Traders describe an strategy or bot in English and we allow them to run and backtest on them.",
     "<strong>Founder and team lead</strong>: co-founder and CTO of Zimp, acquired in 2017. Later technical lead and partner at ENbox, an trading platform: hired the engineering team and built the product from scratch.",
   ],
-  summary: `Senior Backend Engineer with 15+ years of experience specializing in Node.js, data pipelines, and high-volume integrations, with experience building scalable systems. My strongest work sits at the intersection of backend, product, and practical architecture: turning complex ideas into scalable software, workflows and apis.
+  summary: `Senior Backend Engineer with 15+ years of experience specializing in Node.js, data pipelines, high-volume integrations, and building scalable systems. My strongest work sits at the intersection of backend, product, and practical architecture: turning complex ideas into scalable software, workflows, and APIs.
 
-I've been an early engineer at a US trading platform, co-founder and CTO of a fintech that was acquired, and technical partner at an energy-trading platform, so I'm used to owning a system from the first commit through years of production.`,
+I've been an early engineer at a US trading platform, co-founder and CTO of a fintech that was acquired, and a technical partner at an energy trading platform, so I'm used to owning a system from the first commit through years of production. Some of my career highlights are:`,
   avatarUrl: "https://gravatar.com/userimage/10357206/88bd474f5c6f729c5c9393689b1a536c.jpeg?v=1792919758000&size=256",
   personalWebsiteUrl: "https://luanmuniz.com.br",
   contact: {
@@ -118,12 +118,9 @@ The hundreds of GB Database was a big challenge, to make that available to all u
     }
   ],
   skills: [
-    "TypeScript", "Node.js", "JavaScript", "Fastify", "Express",
-    "AWS", "AWS Lambda", "SQS", "Serverless", "Microservices",
-    "Distributed Systems", "Event-Driven Architecture", "REST APIs", "WebSockets",
-    "PostgreSQL", "Redis", "MongoDB", "Data Pipelines", "Web Crawling",
-    "Docker", "Kubernetes", "Terraform", "CI/CD", "Performance Tuning", "LLM Integration", "AI Agents", "OpenAI API",
-    "Rust", "React"
+    "TypeScript", "Node.js", "JavaScript", "AWS", "AWS Lambda", "Microservices",
+    "Distributed Systems", "Event-Driven Architecture", "REST APIs", "PostgreSQL", "Redis", "MongoDB", "Data Pipelines", "Web Crawling",
+    "Docker", "Kubernetes", "Terraform", "CI/CD", "Performance Tuning", "LLM", "AI Agents", "OpenAI API", "Rust", "React"
   ],
   projects: [
     {

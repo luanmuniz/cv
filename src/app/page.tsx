@@ -70,7 +70,7 @@ export default function ResumePage() {
         }}
       />
       <main
-        className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-11 md:p-16"
+        className="container relative mx-auto scroll-my-12 overflow-auto p-4 print:p-10 md:p-16"
         id="main-content"
       >
         <div className="sr-only">
@@ -87,11 +87,18 @@ export default function ResumePage() {
 
           <div className="space-y-8 print:space-y-4">
             <div className="animate-fade-in" style={{ animationDelay: "75ms" }}>
-              <Highlights highlights={RESUME_DATA.highlights} />
+              <Summary summary={RESUME_DATA.summary} highlights={RESUME_DATA.highlights} />
             </div>
 
-            <div className="animate-fade-in" style={{ animationDelay: "75ms" }}>
-              <Summary summary={RESUME_DATA.summary} />
+            {/* <div className="animate-fade-in" style={{ animationDelay: "75ms" }}>
+              <Highlights highlights={RESUME_DATA.highlights} />
+            </div> */}
+
+            <div
+              className="animate-fade-in hidden print:inline-flex"
+              style={{ animationDelay: "300ms" }}
+            >
+              <Skills skills={RESUME_DATA.skills} />
             </div>
 
             <div
@@ -107,7 +114,7 @@ export default function ResumePage() {
               <Education education={RESUME_DATA.education} />
             </div>}
             <div
-              className="animate-fade-in"
+              className="animate-fade-in print:hidden"
               style={{ animationDelay: "300ms" }}
             >
               <Skills skills={RESUME_DATA.skills} />

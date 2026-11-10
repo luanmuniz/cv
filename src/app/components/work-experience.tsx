@@ -86,13 +86,14 @@ function CompanyLink({ company, link }: CompanyLinkProps) {
 
 interface WorkExperienceItemProps {
   work: WorkExperience;
+  isLast: boolean;
 }
 
 /**
  * Individual work experience card component
  * Handles responsive layout for badges (mobile/desktop)
  */
-function WorkExperienceItem({ work }: WorkExperienceItemProps) {
+function WorkExperienceItem({ work, isLast }: WorkExperienceItemProps) {
   const { company, link, badges, title, start, end, description, highlights } =
     work;
 
@@ -100,9 +101,9 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
     <Card className="border-none py-1 print:py-0">
       <CardHeader className="print:space-y-1">
         <div className="flex items-center justify-between gap-x-2 text-base">
-          <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm">
-            {title} <span className="text-sm font-semibold leading-none print:text-[12px] hidden print:inline-flex">
-          at <CompanyLink company={company} link={link} />
+          <h3 className="inline-flex items-center justify-center gap-x-1 font-semibold leading-none print:text-sm print:gap-x-0">
+            {title}<span className="text-sm font-semibold leading-none print:text-[12px] hidden print:inline-flex">
+          , at <CompanyLink company={company} link={link} />
         </span>
           </h3>
           <WorkPeriod start={start} end={end} />
@@ -115,7 +116,7 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
 
       <CardContent>
         <div className="mt-2 text-xs text-foreground/80 print:mt-1 print:text-[10px] text-pretty">
-          {description} <br /><br />
+          <p className="mb-2">{description}</p>
           {highlights && highlights.length > 0 && (
             <ul className="list-inside list-disc">
               {highlights.map((highlight) => (
@@ -124,12 +125,13 @@ function WorkExperienceItem({ work }: WorkExperienceItemProps) {
             </ul>
           )}
         </div>
-        <div className="mt-2 print:mt-1">
+        <div className={`my-3 print:my-2 ${isLast && 'mb-0 print:mb-0'}`}>
           <BadgeList
-            className="-mx-2 flex-wrap gap-1 mt-2 print:mt-0 print:gap-0.5 print:-mx-1 print:mb-2"
+            className="flex-wrap gap-1 print:mt-0 print:gap-0.5 print:-mx-1"
             badges={badges}
           />
         </div>
+        {!isLast && <hr className="border-dashed size-[30%] print:mb-2 hidden print:flex" />}
       </CardContent>
     </Card>
   );
@@ -154,9 +156,9 @@ export function WorkExperience({ work }: WorkExperienceProps) {
         role="feed"
         aria-labelledby="work-experience"
       >
-        {work.map((item) => (
+        {work.map((item, index) => (
           <article key={`${item.company}-${item.start}`}>
-            <WorkExperienceItem work={item} />
+            <WorkExperienceItem work={item} isLast={((index + 1) === work.length)} />
           </article>
         ))}
       </div>

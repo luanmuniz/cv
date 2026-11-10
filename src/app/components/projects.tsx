@@ -91,7 +91,7 @@ interface ProjectCardProps {
  */
 function ProjectCard({ title, description, tags, link }: ProjectCardProps) {
   return (
-    <Card className="flex h-full flex-col overflow-hidden border p-3">
+    <Card className="flex h-full flex-col overflow-hidden border p-3 print:p-0 print:border-none">
       <CardHeader>
         <div className="space-y-1">
           <CardTitle className="text-base">
@@ -105,7 +105,7 @@ function ProjectCard({ title, description, tags, link }: ProjectCardProps) {
           </CardDescription>
         </div>
       </CardHeader>
-      <CardContent className="mt-auto flex">
+      <CardContent className="mt-auto flex print:hidden">
         <ProjectTags tags={tags} />
       </CardContent>
     </Card>
@@ -126,7 +126,7 @@ export function Projects({ projects }: ProjectsProps) {
         Projects
       </h2>
       <div
-        className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-1 print:gap-2 print:-mx-0"
+        className="grid grid-cols-1 gap-3 md:grid-cols-2 lg:grid-cols-3 print:grid-cols-1 print:gap-3 print:-mx-0"
         role="feed"
         aria-labelledby="side-projects"
       >
